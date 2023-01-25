@@ -1,7 +1,72 @@
+body {
+  background-color: rgb(255, 231, 201);
+  font-family: "Aboreto", cursive;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/398/original/picasso.jpeg?1674656299");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 15% 5%;
+  color: bisque;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Aboreto", cursive;
+  background: transparent;
+  color: bisque;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 30px 0;
+  border-bottom: 1px dashed #235784;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 36px;
+  font-weight: bold;
+  color: bisque;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+.date {
+  opacity: 0.7;
+  color: bisque;
+}
 h1 {
   text-align: center;
+  color: bisque;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 24px;
+  color: bisque;
 }
 
 footer {
   text-align: center;
+  color: #2a4c52;
+  font-size: 14px;
 }
