@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 231, 201);
+  background-color: rgb(255, 243, 227);
   font-family: "Aboreto", cursive;
 }
 
@@ -11,7 +11,7 @@ body {
   background-size: cover;
   padding: 30px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
-  border-radius: 15% 5%;
+  border-radius: 6px;
   color: bisque;
 }
 
@@ -24,6 +24,7 @@ select {
   font-family: "Aboreto", cursive;
   background: transparent;
   color: bisque;
+  font-weight: 200px;
 }
 
 .city {
@@ -54,15 +55,18 @@ select {
   opacity: 0.7;
   color: bisque;
 }
+
 h1 {
   text-align: center;
   color: bisque;
+  font-weight: 200px;
 }
 
 h2 {
   margin: 0 0 5px;
   font-size: 24px;
   color: bisque;
+  font-weight: 200px;
 }
 
 footer {
