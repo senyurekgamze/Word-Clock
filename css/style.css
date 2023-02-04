@@ -69,6 +69,11 @@ h2 {
   font-weight: 200px;
 }
 
+a {
+  color: bisque;
+  font-size: 16px;
+}
+
 footer {
   text-align: center;
   color: #2a4c52;
